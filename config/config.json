@@ -1,0 +1,140 @@
+{
+    "window": {
+        "title": "Geometry Dash - Stereo Madness (Pygame Edition)",
+        "width": 1280,
+        "height": 720,
+        "fps": 60
+    },
+    "physics": {
+        "gravity": 2750.0,
+        "ship_gravity": 1350.0,
+        "ship_thrust": -1650.0,
+        "ship_max_vy": 750.0,
+        "jump_velocity": -860.0,
+        "orb_velocity": -880.0,
+        "pad_velocity": -1180.0,
+        "terminal_velocity": 1350.0,
+        "player_speed": 490.0,
+        "rotation_speed": 415.0
+    },
+    "gameplay": {
+        "tile_size": 48,
+        "ground_height": 144,
+        "player_start_x": 260,
+        "checkpoint_interval_px": 1800,
+        "practice_mode_default": false
+    },
+    "audio": {
+        "master_volume": 0.85,
+        "music_volume": 0.65,
+        "sfx_volume": 0.85,
+        "muted": false,
+        "files": {
+            "music_home": "assets/audio/music/home.wav",
+            "music_level": "assets/audio/music/stereo_madness.wav",
+            "music_practice": "assets/audio/music/practice.wav",
+            "sfx_start": "assets/audio/sfx/start.wav",
+            "sfx_death": "assets/audio/sfx/death.wav",
+            "sfx_jump": "assets/audio/sfx/jump.wav",
+            "sfx_orb": "assets/audio/sfx/orb.wav",
+            "sfx_pad": "assets/audio/sfx/pad.wav",
+            "sfx_portal": "assets/audio/sfx/portal.wav",
+            "sfx_checkpoint": "assets/audio/sfx/checkpoint.wav",
+            "sfx_win": "assets/audio/sfx/win.wav"
+        }
+    },
+    "colors": {
+        "bg_top": [
+            18,
+            42,
+            115
+        ],
+        "bg_bottom": [
+            38,
+            92,
+            210
+        ],
+        "ship_bg_top": [
+            95,
+            22,
+            110
+        ],
+        "ship_bg_bottom": [
+            185,
+            45,
+            130
+        ],
+        "ground_fill": [
+            12,
+            26,
+            78
+        ],
+        "ground_line": [
+            120,
+            210,
+            255
+        ],
+        "player_primary": [
+            125,
+            255,
+            50
+        ],
+        "player_secondary": [
+            0,
+            235,
+            255
+        ],
+        "player_outline": [
+            15,
+            20,
+            35
+        ],
+        "spike_fill": [
+            20,
+            22,
+            30
+        ],
+        "spike_outline": [
+            255,
+            255,
+            255
+        ],
+        "block_fill": [
+            22,
+            34,
+            72
+        ],
+        "block_outline": [
+            110,
+            220,
+            255
+        ],
+        "orb_yellow": [
+            255,
+            225,
+            40
+        ],
+        "pad_yellow": [
+            255,
+            200,
+            30
+        ],
+        "portal_ship": [
+            255,
+            85,
+            205
+        ],
+        "portal_cube": [
+            65,
+            240,
+            120
+        ]
+    },
+    "progress": {
+        "high_score_percent": 0.0,
+        "practice_high_score_percent": 0.0,
+        "total_attempts": 0,
+        "total_jumps": 0,
+        "level_completed": false
+    }
+}
